@@ -16,10 +16,9 @@ nav img {
 }
 
 .spacer {
-    border: 1px solid red;
     display: inline-block;
     /** Parent width - Logo width - Text width **/
-    width: calc(100% - 50px - 275px);
+    width: calc(100% - 50px - 300px);
 }
 
 nav ul {
@@ -53,4 +52,47 @@ nav ul li a:hover {
 
 nav ul li a:active {
     color: lightgreen
+}
+
+article{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding: 10px;
+    box-sizing: border-box;
+    border-left: 2px solid #ccc;
+}
+
+.aside-list  {
+    display: block;
+    text-align: left;
+}
+
+h1,h2 {
+    margin: 10px;
+    color: brown;
+}
+
+img {
+    max-height: 200px;
+    margin: 10px;
+}
+
+
+p {
+    margin: 10px;
+}
+
+footer {
+    background-color: beige;
+    text-align: center;
 }
